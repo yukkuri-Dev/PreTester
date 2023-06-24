@@ -38,10 +38,10 @@
             ログの収集を開始ToolStripMenuItem = new ToolStripMenuItem();
             ログの収集を終了ToolStripMenuItem = new ToolStripMenuItem();
             ログを消去ToolStripMenuItem = new ToolStripMenuItem();
+            ログを10列追加ToolStripMenuItem = new ToolStripMenuItem();
             情報ToolStripMenuItem = new ToolStripMenuItem();
             コンソールについてToolStripMenuItem = new ToolStripMenuItem();
             Loglist = new ListBox();
-            ログを10列追加ToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -65,18 +65,18 @@
             // ログを保存ToolStripMenuItem
             // 
             ログを保存ToolStripMenuItem.Name = "ログを保存ToolStripMenuItem";
-            ログを保存ToolStripMenuItem.Size = new Size(180, 22);
+            ログを保存ToolStripMenuItem.Size = new Size(134, 22);
             ログを保存ToolStripMenuItem.Text = "ログを保存...";
             // 
             // toolStripMenuItem2
             // 
             toolStripMenuItem2.Name = "toolStripMenuItem2";
-            toolStripMenuItem2.Size = new Size(177, 6);
+            toolStripMenuItem2.Size = new Size(131, 6);
             // 
             // 閉じるToolStripMenuItem
             // 
             閉じるToolStripMenuItem.Name = "閉じるToolStripMenuItem";
-            閉じるToolStripMenuItem.Size = new Size(180, 22);
+            閉じるToolStripMenuItem.Size = new Size(134, 22);
             閉じるToolStripMenuItem.Text = "閉じる";
             閉じるToolStripMenuItem.Click += 閉じるToolStripMenuItem_Click;
             // 
@@ -91,26 +91,33 @@
             // 
             ログToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { ログの収集を開始ToolStripMenuItem, ログの収集を終了ToolStripMenuItem, ログを消去ToolStripMenuItem, ログを10列追加ToolStripMenuItem });
             ログToolStripMenuItem.Name = "ログToolStripMenuItem";
-            ログToolStripMenuItem.Size = new Size(180, 22);
+            ログToolStripMenuItem.Size = new Size(92, 22);
             ログToolStripMenuItem.Text = "ログ";
             // 
             // ログの収集を開始ToolStripMenuItem
             // 
             ログの収集を開始ToolStripMenuItem.Name = "ログの収集を開始ToolStripMenuItem";
-            ログの収集を開始ToolStripMenuItem.Size = new Size(180, 22);
+            ログの収集を開始ToolStripMenuItem.Size = new Size(159, 22);
             ログの収集を開始ToolStripMenuItem.Text = "ログの収集を開始";
             // 
             // ログの収集を終了ToolStripMenuItem
             // 
             ログの収集を終了ToolStripMenuItem.Name = "ログの収集を終了ToolStripMenuItem";
-            ログの収集を終了ToolStripMenuItem.Size = new Size(180, 22);
+            ログの収集を終了ToolStripMenuItem.Size = new Size(159, 22);
             ログの収集を終了ToolStripMenuItem.Text = "ログの収集を終了";
             // 
             // ログを消去ToolStripMenuItem
             // 
             ログを消去ToolStripMenuItem.Name = "ログを消去ToolStripMenuItem";
-            ログを消去ToolStripMenuItem.Size = new Size(180, 22);
+            ログを消去ToolStripMenuItem.Size = new Size(159, 22);
             ログを消去ToolStripMenuItem.Text = "ログを消去";
+            // 
+            // ログを10列追加ToolStripMenuItem
+            // 
+            ログを10列追加ToolStripMenuItem.Name = "ログを10列追加ToolStripMenuItem";
+            ログを10列追加ToolStripMenuItem.Size = new Size(159, 22);
+            ログを10列追加ToolStripMenuItem.Text = "ログを10列追加";
+            ログを10列追加ToolStripMenuItem.Click += ログを10列追加ToolStripMenuItem_Click;
             // 
             // 情報ToolStripMenuItem
             // 
@@ -122,7 +129,7 @@
             // コンソールについてToolStripMenuItem
             // 
             コンソールについてToolStripMenuItem.Name = "コンソールについてToolStripMenuItem";
-            コンソールについてToolStripMenuItem.Size = new Size(180, 22);
+            コンソールについてToolStripMenuItem.Size = new Size(155, 22);
             コンソールについてToolStripMenuItem.Text = "コンソールについて";
             コンソールについてToolStripMenuItem.Click += コンソールについてToolStripMenuItem_Click;
             // 
@@ -139,13 +146,6 @@
             Loglist.TabIndex = 2;
             Loglist.SelectedIndexChanged += Loglist_SelectedIndexChanged;
             // 
-            // ログを10列追加ToolStripMenuItem
-            // 
-            ログを10列追加ToolStripMenuItem.Name = "ログを10列追加ToolStripMenuItem";
-            ログを10列追加ToolStripMenuItem.Size = new Size(180, 22);
-            ログを10列追加ToolStripMenuItem.Text = "ログを10列追加";
-            ログを10列追加ToolStripMenuItem.Click += ログを10列追加ToolStripMenuItem_Click;
-            // 
             // console
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -156,6 +156,7 @@
             Name = "console";
             ShowIcon = false;
             Text = "コンソール";
+            Load += console_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);

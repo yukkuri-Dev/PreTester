@@ -1,15 +1,4 @@
-﻿using Microsoft.VisualBasic;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace PerTester
+﻿namespace PerTester
 {
     public partial class console : Form
     {
@@ -52,8 +41,8 @@ namespace PerTester
 
         private void ログを10列追加ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
-                for (int i = 0; i <= 10; i++)
+
+            for (int i = 0; i <= 10; i++)
             {
                 String r = "debug:";
 

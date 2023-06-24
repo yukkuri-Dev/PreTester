@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace PerTester
+﻿namespace PerTester
 {
     public partial class Form2 : Form
     {
@@ -82,7 +72,7 @@ namespace PerTester
             string q3;
 
             System.Random r = new System.Random(int.Parse(SeedVex.Text));
-            int r2 = r.Next(0,100);
+            int r2 = r.Next(0, 100);
 
             q3 = r2.ToString();
             textBoxVex.Text = q3;

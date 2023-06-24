@@ -1,6 +1,4 @@
-using Microsoft.VisualBasic;
 using PerTester.SplashScreen;
-using System.Windows.Forms;
 
 
 namespace PerTester

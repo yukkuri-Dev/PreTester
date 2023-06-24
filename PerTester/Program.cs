@@ -1,5 +1,3 @@
-using PerTester.SplashScreen;
-
 namespace PerTester
 {
     internal static class Program
