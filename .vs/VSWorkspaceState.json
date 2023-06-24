@@ -1,6 +1,15 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\PerTester",
+    "\\PerTester\\bin",
+    "\\PerTester\\bin\\Debug",
+    "\\PerTester\\bin\\Debug\\net6.0-windows",
+    "\\PerTester\\obj",
+    "\\PerTester\\obj\\Debug",
+    "\\PerTester\\obj\\Debug\\net6.0-windows",
+    "\\PerTester\\obj\\Debug\\net6.0-windows\\ref"
   ],
+  "SelectedNode": "\\PerTester\\bin\\Debug\\net6.0-windows\\PerTester.exe",
   "PreviewInSolutionExplorer": false
 }

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CT1105\\source\\repos\\PreTester\\PerTester\\PerTester.csproj": {}
+    "C:\\Users\\CT1105\\source\\repos\\PreTester\\PerTester\\PreTester.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CT1105\\source\\repos\\PreTester\\PerTester\\PerTester.csproj": {
+    "C:\\Users\\CT1105\\source\\repos\\PreTester\\PerTester\\PreTester.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CT1105\\source\\repos\\PreTester\\PerTester\\PerTester.csproj",
-        "projectName": "PerTester",
-        "projectPath": "C:\\Users\\CT1105\\source\\repos\\PreTester\\PerTester\\PerTester.csproj",
+        "projectUniqueName": "C:\\Users\\CT1105\\source\\repos\\PreTester\\PerTester\\PreTester.csproj",
+        "projectName": "PreTester",
+        "projectPath": "C:\\Users\\CT1105\\source\\repos\\PreTester\\PerTester\\PreTester.csproj",
         "packagesPath": "C:\\Users\\CT1105\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\CT1105\\source\\repos\\PreTester\\PerTester\\obj\\",
         "projectStyle": "PackageReference",

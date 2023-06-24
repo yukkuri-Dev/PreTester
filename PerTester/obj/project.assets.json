@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CT1105\\source\\repos\\PerTester\\PerTester\\PerTester.csproj",
-      "projectName": "PerTester",
-      "projectPath": "C:\\Users\\CT1105\\source\\repos\\PerTester\\PerTester\\PerTester.csproj",
+      "projectUniqueName": "C:\\Users\\CT1105\\source\\repos\\PreTester\\PerTester\\PreTester.csproj",
+      "projectName": "PreTester",
+      "projectPath": "C:\\Users\\CT1105\\source\\repos\\PreTester\\PerTester\\PreTester.csproj",
       "packagesPath": "C:\\Users\\CT1105\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CT1105\\source\\repos\\PerTester\\PerTester\\obj\\",
+      "outputPath": "C:\\Users\\CT1105\\source\\repos\\PreTester\\PerTester\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CT1105\\AppData\\Roaming\\NuGet\\NuGet.Config",
