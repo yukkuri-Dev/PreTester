@@ -15,10 +15,10 @@ namespace PerTester.SplashScreen
     {
         public SpS()
         {
-            InitializeComponent();
             progressBar1.Minimum = 0;
-            progressBar1.Maximum = 1000;
+            progressBar1.Maximum = 10;
             progressBar1.Value = 0;
+            InitializeComponent();
 
             for (int i = 1; i <= 1000; i++)
             {
