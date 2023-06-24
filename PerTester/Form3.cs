@@ -36,7 +36,7 @@ namespace PerTester
         private void コンソールについてToolStripMenuItem_Click(object sender, EventArgs e)
         {
             String r1 = "=========[About this console]=========";
-            String r2 = "This console was created by I.kaito";
+            String r2 = "This console was created by CT1105";
             String r3 = "This software is a program that onl";
             String r4 = "y issues processed instructions.";
             Loglist.Items.Add(r1);
