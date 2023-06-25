@@ -1,4 +1,6 @@
-﻿namespace PerTester.SplashScreen
+﻿using System.Runtime.CompilerServices;
+
+namespace PerTester.SplashScreen
 {
     public partial class SpS : Form
     {
@@ -7,15 +9,9 @@
 
 
             InitializeComponent();
+            startLog.Items.Add("これはダミーです");
+            startLog.Items.Add("だから開くボタンをおしてくださいな");
 
-            for (int i = 1; i <= 1000; i++)
-            {
-                System.Random rdom = new System.Random(1407);
-                int r1 = rdom.Next(10);
-                Thread.Sleep(r1);
-                progressBar1.Value = i;
-
-            }
 
 
         }
@@ -32,9 +28,19 @@
 
         private void progressBar1_Click(object sender, EventArgs e)
         {
-            progressBar1.Minimum = 0;
-            progressBar1.Maximum = 1000;
-            progressBar1.Value = 0;
+
+        }
+
+        private void startLog_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 Form1 = new Form1();
+            Form1.Show();
+            
         }
     }
 }

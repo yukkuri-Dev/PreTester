@@ -8,7 +8,8 @@ namespace PerTester
         public Form1()
         {
             InitializeComponent();
-
+            SpS SpS = new SpS();
+            //SpS.Close();
         }
 
         private void aAToolStripMenuItem_Click(object sender, EventArgs e)

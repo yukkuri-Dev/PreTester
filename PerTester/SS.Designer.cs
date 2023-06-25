@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SpS));
             label1 = new Label();
             progressBar1 = new ProgressBar();
+            startLog = new ListBox();
+            button1 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -52,12 +54,36 @@
             progressBar1.TabIndex = 1;
             progressBar1.Click += progressBar1_Click;
             // 
+            // startLog
+            // 
+            startLog.BackColor = SystemColors.HighlightText;
+            startLog.ForeColor = SystemColors.InfoText;
+            startLog.FormattingEnabled = true;
+            startLog.ItemHeight = 15;
+            startLog.Location = new Point(1, 79);
+            startLog.Name = "startLog";
+            startLog.Size = new Size(489, 184);
+            startLog.TabIndex = 2;
+            startLog.SelectedIndexChanged += startLog_SelectedIndexChanged;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(1, 260);
+            button1.Name = "button1";
+            button1.Size = new Size(489, 23);
+            button1.TabIndex = 3;
+            button1.Text = "開く";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // SpS
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(490, 330);
+            Controls.Add(button1);
+            Controls.Add(startLog);
             Controls.Add(progressBar1);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
@@ -74,5 +100,7 @@
 
         private Label label1;
         private ProgressBar progressBar1;
+        private ListBox startLog;
+        private Button button1;
     }
 }
