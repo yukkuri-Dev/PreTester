@@ -156,7 +156,7 @@
             Name = "console";
             ShowIcon = false;
             Text = "コンソール";
-            Load += console_Load;
+
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);

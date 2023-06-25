@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CT1105\\source\\repos\\PreTester\\PerTester\\PreTester.csproj": {}
+    "C:\\Users\\CT1105\\Source\\Repos\\yukkuri-Dev\\PreTester\\PerTester\\PreTester.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CT1105\\source\\repos\\PreTester\\PerTester\\PreTester.csproj": {
+    "C:\\Users\\CT1105\\Source\\Repos\\yukkuri-Dev\\PreTester\\PerTester\\PreTester.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CT1105\\source\\repos\\PreTester\\PerTester\\PreTester.csproj",
+        "projectUniqueName": "C:\\Users\\CT1105\\Source\\Repos\\yukkuri-Dev\\PreTester\\PerTester\\PreTester.csproj",
         "projectName": "PreTester",
-        "projectPath": "C:\\Users\\CT1105\\source\\repos\\PreTester\\PerTester\\PreTester.csproj",
+        "projectPath": "C:\\Users\\CT1105\\Source\\Repos\\yukkuri-Dev\\PreTester\\PerTester\\PreTester.csproj",
         "packagesPath": "C:\\Users\\CT1105\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CT1105\\source\\repos\\PreTester\\PerTester\\obj\\",
+        "outputPath": "C:\\Users\\CT1105\\Source\\Repos\\yukkuri-Dev\\PreTester\\PerTester\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CT1105\\AppData\\Roaming\\NuGet\\NuGet.Config",
