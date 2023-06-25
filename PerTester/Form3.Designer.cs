@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(console));
             menuStrip1 = new MenuStrip();
             fwToolStripMenuItem = new ToolStripMenuItem();
             ログを保存ToolStripMenuItem = new ToolStripMenuItem();
@@ -153,10 +154,9 @@
             ClientSize = new Size(800, 450);
             Controls.Add(Loglist);
             Controls.Add(menuStrip1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "console";
-            ShowIcon = false;
             Text = "コンソール";
-
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
