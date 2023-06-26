@@ -50,5 +50,10 @@
                 Loglist.Items.Add(r1);
             }
         }
+
+        private void コンソールToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

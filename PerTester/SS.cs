@@ -38,7 +38,7 @@ namespace PerTester.SplashScreen
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 Form1 = new Form1();
+            Main Form1 = new Main();
             Form1.Show();
             
         }

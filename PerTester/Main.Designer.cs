@@ -39,6 +39,7 @@
             developeroptionTool = new ToolStripMenuItem();
             developeroptionHide = new ToolStripMenuItem();
             コンソールの表示ToolStripMenuItem = new ToolStripMenuItem();
+            このソフトウェアについてToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -62,7 +63,7 @@
             // callSplashToolStripMenuItem
             // 
             callSplashToolStripMenuItem.Name = "callSplashToolStripMenuItem";
-            callSplashToolStripMenuItem.Size = new Size(141, 22);
+            callSplashToolStripMenuItem.Size = new Size(180, 22);
             callSplashToolStripMenuItem.Text = "★Call splash";
             callSplashToolStripMenuItem.Click += callSplashToolStripMenuItem_Click;
             // 
@@ -76,13 +77,13 @@
             // 設定ToolStripMenuItem
             // 
             設定ToolStripMenuItem.Name = "設定ToolStripMenuItem";
-            設定ToolStripMenuItem.Size = new Size(141, 22);
+            設定ToolStripMenuItem.Size = new Size(180, 22);
             設定ToolStripMenuItem.Text = "生成オプション";
             設定ToolStripMenuItem.Click += 設定ToolStripMenuItem_Click;
             // 
             // 設定ToolStripMenuItem1
             // 
-            設定ToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { 設定ToolStripMenuItem2 });
+            設定ToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { 設定ToolStripMenuItem2, このソフトウェアについてToolStripMenuItem });
             設定ToolStripMenuItem1.Name = "設定ToolStripMenuItem1";
             設定ToolStripMenuItem1.Size = new Size(43, 20);
             設定ToolStripMenuItem1.Text = "設定";
@@ -90,7 +91,7 @@
             // 設定ToolStripMenuItem2
             // 
             設定ToolStripMenuItem2.Name = "設定ToolStripMenuItem2";
-            設定ToolStripMenuItem2.Size = new Size(98, 22);
+            設定ToolStripMenuItem2.Size = new Size(180, 22);
             設定ToolStripMenuItem2.Text = "設定";
             設定ToolStripMenuItem2.Click += 設定ToolStripMenuItem2_Click;
             // 
@@ -119,13 +120,19 @@
             コンソールの表示ToolStripMenuItem.Text = "コンソールの表示";
             コンソールの表示ToolStripMenuItem.Click += コンソールの表示ToolStripMenuItem_Click;
             // 
+            // このソフトウェアについてToolStripMenuItem
+            // 
+            このソフトウェアについてToolStripMenuItem.Name = "このソフトウェアについてToolStripMenuItem";
+            このソフトウェアについてToolStripMenuItem.Size = new Size(180, 22);
+            このソフトウェアについてToolStripMenuItem.Text = "このソフトウェアについて";
+            このソフトウェアについてToolStripMenuItem.Click += このソフトウェアについてToolStripMenuItem_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(menuStrip1);
-            Cursor = Cursors.Arrow;
             Icon = (Icon)resources.GetObject("$this.Icon");
             MainMenuStrip = menuStrip1;
             Name = "Form1";
@@ -149,5 +156,6 @@
         private ToolStripMenuItem developeroptionTool;
         private ToolStripMenuItem developeroptionHide;
         private ToolStripMenuItem コンソールの表示ToolStripMenuItem;
+        private ToolStripMenuItem このソフトウェアについてToolStripMenuItem;
     }
 }

@@ -1,5 +1,5 @@
 using PerTester.SplashScreen;
-
+using PreTester;
 
 namespace PerTester
 {
@@ -62,6 +62,13 @@ namespace PerTester
         {
             console console = new console();
             console.Show();
+        }
+
+        private void このソフトウェアについてToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AboutPre about = new AboutPre();
+            about.Show();
+
         }
     }
 }

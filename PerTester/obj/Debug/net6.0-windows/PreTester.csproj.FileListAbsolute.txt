@@ -40,3 +40,4 @@ C:\Users\CT1105\Source\Repos\yukkuri-Dev\PreTester\PerTester\obj\Debug\net6.0-wi
 C:\Users\CT1105\Source\Repos\yukkuri-Dev\PreTester\PerTester\obj\Debug\net6.0-windows\PreTester.pdb
 C:\Users\CT1105\Source\Repos\yukkuri-Dev\PreTester\PerTester\obj\Debug\net6.0-windows\PreTester.genruntimeconfig.cache
 C:\Users\CT1105\Source\Repos\yukkuri-Dev\PreTester\PerTester\obj\Debug\net6.0-windows\ref\PreTester.dll
+C:\Users\CT1105\Source\Repos\yukkuri-Dev\PreTester\PerTester\obj\Debug\net6.0-windows\PreTester.AboutPre.resources
